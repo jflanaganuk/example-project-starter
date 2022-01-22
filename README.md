@@ -24,3 +24,4 @@ The idea of this project is to be a proof of concept for starting a web app with
 7. Cypress - e2e test runner
 8. Apollo - client for interfacing with graphql
 9. SSR - server side rendering for SEO
+10. Guided VS Code tour with codetour extension
