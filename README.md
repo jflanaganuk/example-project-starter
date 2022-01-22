@@ -1,7 +1,9 @@
 # Example Project
 
-<p float="left">
+<p float="left" style="display: flex; justify-content: space-evenly;">
 <img src="src/logo.svg" height="80" />
+<img src="src/ts.svg" height="80" />
+<img src="src/stories/assets/repo.svg" height="80" />
 <img src="src/favicon.svg" height="80" />
 </p>
 <hr/>
