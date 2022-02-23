@@ -16,12 +16,13 @@ The idea of this project is to be a proof of concept for starting a web app with
 2. Typescript - superset of javascript containing type enforcement
 3. Storybook - a tool to build UI components in a sandbox
 4. Vite - a blazing fast bundler using esbuild
+5. Tauri - a toolkit that helps developers make applications for the major desktop platforms
 
 #### TODO:
 
-5. Tailwind - standardised CSS framework
-6. Jest - Unit test runner
-7. Cypress - e2e test runner
-8. Apollo - client for interfacing with graphql
-9. SSR - server side rendering for SEO
-10. Guided VS Code tour with codetour extension
+6. Tailwind - standardised CSS framework
+7. Jest - Unit test runner
+8. Cypress - e2e test runner
+9. Apollo - client for interfacing with graphql
+10. SSR - server side rendering for SEO
+11. Guided VS Code tour with codetour extension
