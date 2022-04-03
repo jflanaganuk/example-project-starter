@@ -7,6 +7,7 @@
         "plugin:@typescript-eslint/eslint-recommended",
         "plugin:@typescript-eslint/recommended",
         "plugin:prettier/recommended",
+        "plugin:react/jsx-runtime"
     ],
     "settings": {
         "import/extensions": [".js", ".jsx", ".ts", ".tsx"],
@@ -20,7 +21,6 @@
         },
     },
     "rules": {
-        "semi": [2, "never"],
         "@typescript-eslint/class-name-casing": "off",
         "@typescript-eslint/interface-name-prefix": "off",
         "@typescript-eslint/member-delimiter-style": "off",
@@ -52,6 +52,9 @@
         "no-nested-ternary": "error",
         "react-hooks/rules-of-hooks": "error",
         "react-hooks/exhaustive-deps": "error",
+        "react/require-default-props": "off",
+        "react/jsx-props-no-spreading": "off",
+        "react/function-component-definition": "off",
         "prettier/prettier": [
             "error",
             {
