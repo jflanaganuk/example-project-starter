@@ -17,12 +17,13 @@ The idea of this project is to be a proof of concept for starting a web app with
 3. Storybook - a tool to build UI components in a sandbox
 4. Vite - a blazing fast bundler using esbuild
 5. Tauri - a toolkit that helps developers make applications for the major desktop platforms
+6. Prettier - an opinionated code formatter
+7. Eslint - a static code linter
 
 #### TODO:
 
-6. Tailwind - standardised CSS framework
-7. Jest - Unit test runner
-8. Cypress - e2e test runner
-9. Apollo - client for interfacing with graphql
-10. SSR - server side rendering for SEO
-11. Guided VS Code tour with codetour extension
+8. Jest - Unit test runner
+9. Cypress - e2e test runner
+10. Apollo - client for interfacing with graphql
+11. SSR - server side rendering for SEO
+12. Guided VS Code tour with codetour extension
