@@ -1,26 +1,33 @@
-import logo from "./logo.svg";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./App.css";
+import About from "./About";
+import Home from "./Home";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Example project containing all Josh Ideas</p>
-        <h3>Technologies include:</h3>
-        <ul>
-          <li>React</li>
-          <li>Typescript</li>
-          <li>Storybook</li>
-          <li>Vite</li>
-          <li>Tailwind (todo)</li>
-          <li>Jest (todo)</li>
-          <li>Cypress (todo)</li>
-          <li>Apollo Client Typegen (todo)</li>
-          <li>SSR (todo)</li>
-        </ul>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
+          </ul>
+        </nav>
+
+        <Switch>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
