@@ -10,6 +10,24 @@
 
 The idea of this project is to be a proof of concept for starting a web app with all the developer tools you would require.
 
+### Installation
+
+```
+npm install
+```
+
+To run with browser
+
+```
+npm run vite
+```
+
+To run with Tauri
+
+```
+npm run dev
+```
+
 ### List of tools:
 
 1. React - state library
