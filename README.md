@@ -1,14 +1,19 @@
-# Example Project
+# Example Project Starter
 
 <p float="left" style="display: flex; justify-content: space-evenly;">
-<img src="src/logo.svg" height="80" />
-<img src="src/ts.svg" height="80" />
-<img src="src/stories/assets/repo.svg" height="80" />
-<img src="src/favicon.svg" height="80" />
+<img src="src/assets/react.svg" height="80" />
+<img src="src/assets/ts.svg" height="80" />
+<img src="src/assets/storybook.svg" height="80" />
+<img src="src/assets/prettier.svg" height="80" />
+<img src="src/assets/eslint.svg" height="80" />
+<img src="src/assets/vitest.svg" height="80" />
+<img src="src/assets/playwright.svg" height="80" />
+<img src="src/assets/favicon.svg" height="80" />
+<img src="src/assets/tauri.svg" height="80" />
 </p>
 <hr/>
 
-The idea of this project is to be a proof of concept for starting a web app with all the developer tools you would require.
+A starter repo with all the developer tools you would require.
 
 ### Installation
 
@@ -40,8 +45,8 @@ npm run dev
 
 #### TODO:
 
-8. Jest - Unit test runner
-9. Cypress - e2e test runner
+8. Vitest - Unit test runner
+9. Playwright - e2e test runner
 10. Apollo - client for interfacing with graphql
 11. SSR - server side rendering for SEO
 12. Guided VS Code tour with codetour extension
