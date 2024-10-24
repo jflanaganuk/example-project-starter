@@ -24,13 +24,13 @@ npm install
 To run with browser
 
 ```
-npm run vite
-```
-
-To run with Tauri
-
-```
 npm run dev
+```
+
+To run with Tauri (you must also have ran the above command in a different process)
+
+```
+npm run dev:native
 ```
 
 ### List of tools:
