@@ -1,20 +1,45 @@
 {
+  "lib": ["dom", "dom.iterable", "esnext"],
   "compilerOptions": {
-    "target": "ESNext",
-    "useDefineForClassFields": true,
-    "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "allowJs": false,
-    "skipLibCheck": false,
-    "esModuleInterop": false,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
     "module": "ESNext",
-    "moduleResolution": "Node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
+    "target": "ESNext",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "jsx": "react-jsx",
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "alwaysStrict": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "allowUnreachableCode": false,
+    "noFallthroughCasesInSwitch": true,
+    "outDir": "dist",
+    "declaration": true,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": false,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "isolatedModules": true,
+    "lib": ["ESNext", "dom"],
+    "types": ["vitest/globals", "@testing-library/jest-dom"],
+    "paths": {
+      "@src/*": ["src/*"],
+      "@tests/*": ["tests/*"],
+      "@unit-test-utils": ["tests/unit/unit-test-utils.tsx"],
+      "@clever-clinic/clever-components/*": [
+        "./node_modules/@clever-clinic/clever-components/dist/src/global/"
+      ]
+    }
   },
-  "include": ["./src"]
+  "exclude": ["./dist/**/*", ".eslint.js"],
+  "include": ["**/*.ts", "**/*.tsx"]
 }
