@@ -1,7 +1,45 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
-  ]
+  "lib": ["dom", "dom.iterable", "esnext"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "ESNext",
+    "target": "ESNext",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "jsx": "react-jsx",
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "alwaysStrict": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "allowUnreachableCode": false,
+    "noFallthroughCasesInSwitch": true,
+    "outDir": "dist",
+    "declaration": true,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": false,
+    "noEmit": true,
+    "isolatedModules": true,
+    "lib": ["ESNext", "dom"],
+    "types": ["vitest/globals", "@testing-library/jest-dom"],
+    "paths": {
+      "@src/*": ["src/*"],
+      "@tests/*": ["tests/*"],
+      "@unit-test-utils": ["tests/unit/unit-test-utils.tsx"],
+      "@clever-clinic/clever-components/*": [
+        "./node_modules/@clever-clinic/clever-components/dist/src/global/"
+      ]
+    }
+  },
+  "exclude": ["./dist/**/*", ".eslint.js"],
+  "include": ["**/*.ts", "**/*.tsx"]
 }

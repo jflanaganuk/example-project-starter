@@ -42,10 +42,10 @@ npm run dev
 5. Tauri - a toolkit that helps developers make applications for the major desktop platforms
 6. Prettier - an opinionated code formatter
 7. Eslint - a static code linter
+8. Vitest - Unit test runner
 
 #### TODO:
 
-8. Vitest - Unit test runner
 9. Playwright - e2e test runner
 10. Apollo - client for interfacing with graphql
 11. SSR - server side rendering for SEO
