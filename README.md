@@ -44,11 +44,3 @@ npm run dev:native
 7. Eslint - a static code linter
 8. Vitest - Unit test runner with React Testing Library and Mock Service Worker
 9. Playwright - e2e test runner
-
-#### TODO:
-
-10. Apollo - client for interfacing with graphql
-11. React Hook Form - for easier forming
-12. Husky - for pre push checking
-13. SSR - server side rendering for SEO
-14. Guided VS Code tour with codetour extension
