@@ -1,15 +1,15 @@
 # Example Project Starter
 
 <p float="left" style="display: flex; justify-content: space-evenly;">
-<img src="src/assets/react.svg" height="80" />
-<img src="src/assets/ts.svg" height="80" />
-<img src="src/assets/storybook.svg" height="80" />
-<img src="src/assets/prettier.svg" height="80" />
-<img src="src/assets/eslint.svg" height="80" />
-<img src="src/assets/vitest.svg" height="80" />
-<img src="src/assets/playwright.svg" height="80" />
-<img src="src/assets/favicon.svg" height="80" />
-<img src="src/assets/tauri.svg" height="80" />
+<img src="src/assets/react.svg" height="40" />
+<img src="src/assets/ts.svg" height="40" />
+<img src="src/assets/storybook.svg" height="40" />
+<img src="src/assets/prettier.svg" height="40" />
+<img src="src/assets/eslint.svg" height="40" />
+<img src="src/assets/vitest.svg" height="40" />
+<img src="src/assets/playwright.svg" height="40" />
+<img src="src/assets/favicon.svg" height="40" />
+<img src="src/assets/tauri.svg" height="40" />
 </p>
 <hr/>
 
@@ -42,7 +42,7 @@ npm run dev
 5. Tauri - a toolkit that helps developers make applications for the major desktop platforms
 6. Prettier - an opinionated code formatter
 7. Eslint - a static code linter
-8. Vitest - Unit test runner
+8. Vitest - Unit test runner with React Testing Library and Mock Service Worker
 
 #### TODO:
 
